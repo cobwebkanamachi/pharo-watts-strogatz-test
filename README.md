@@ -15,3 +15,7 @@ Then you could embed these to test.st with yourself.
 I have no idea other than Atlas3 and python to combine pharo with python3.
 I have no idea to get python's output other than inspector invokation.
 Sorry for inconvinient.
+
+If you get to know about atlas, please read these bellow.
+https://medium.com/@nikhilpinnaparaju/working-with-the-atlas-pharo-python-bridge-1ad6ba356f7
+https://github.com/kilon/Atlas
