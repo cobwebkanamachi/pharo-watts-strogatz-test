@@ -5,9 +5,10 @@ Pharo 9.0.0
 Build information: Pharo-9.0.0+build.732.sha.6af0583f14b12f143ba4522feaccaabf048ed635 (64 Bit)
 ![alt text](https://github.com/cobwebkanamachi/pharo-watts-strogatz-test/blob/main/demo.png?raw=true "Demo Screen")
 I inspired Serge Stinckwich's "Visualization of Regular Lattice with Pharo & Roassal" shown bellow, so made this.
-[link to his demo movie on youtube](https://www.youtube.com/watch?v=kkFa4t5isYQ)
+[link to his demo movie on youtube](https://www.youtube.com/watch?v=kkFa4t5isYQ)<BR>
 test.st : please copy and paste to Pharo's playground, then doit.
 you would view twisting circular lattice.
+<p>
 condition to execution: you need roassal2 on pharo. if you got that yet, please testify this.
 i got this by steps shown bellow.
 1. gofer(paste to playground of Pharo, then doit)<BR>
@@ -26,7 +27,11 @@ Needed to express edges to edges as nodes, and smalltalk notification of edges t
 You could rewrite these with vi, emacs, notepad.exe, or you like.
 Then you could embed these to test.st with yourself.
 <p>
-
+test.py's code fragment: nx.watts_strogatz_graph(50,4,0.04)
+  this means 50 nodes and 4 edges per a node with other nodes.
+  so 50 nodes and 100 edges would make singular cirular chain, but 50 nodes with 4 edges would make twin circular lattice indeed, and some smallworld links deviate with regular.
+  you can test with above 4 edges per node.
+<p>
 I have no idea other than Atlas3 and python to combine pharo with python3.
 I have no idea to get python's output other than inspector invokation.
 Sorry for inconvinient.
