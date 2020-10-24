@@ -10,7 +10,7 @@ test.st : please copy and paste to Pharo's playground, then doit.
 you would view twisting circular lattice.
 condition to execution: you need roassal2 on pharo. if you got that yet, please testify this.
 i got this by steps shown bellow.
-1. gofer(paste to playground of Pharo)<BR>
+1. gofer(paste to playground of Pharo, then doit)<BR>
 Gofer it<BR>
 smalltalkhubUser: 'ObjectProfile' project: 'Roassal2';<BR>
 configurationOf: 'Roassal2';<BR>
