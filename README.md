@@ -25,6 +25,7 @@ test.py would your watts-strogatz network as graph image and text like shown bel
 Needed to express edges to edges as nodes, and smalltalk notification of edges to edges is like 1->2.
 You could rewrite these with vi, emacs, notepad.exe, or you like.
 Then you could embed these to test.st with yourself.
+<p>
 
 I have no idea other than Atlas3 and python to combine pharo with python3.
 I have no idea to get python's output other than inspector invokation.
